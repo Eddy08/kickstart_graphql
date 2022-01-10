@@ -1,0 +1,11 @@
+type Query{
+    fetchmessage: String
+    byemessage: String
+    fetchmessage(name: String): String
+    employees: [employee]
+}
+type employee{
+    ID: String
+    name: String
+    department: String
+}
